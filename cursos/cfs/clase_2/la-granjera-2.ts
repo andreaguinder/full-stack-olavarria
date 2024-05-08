@@ -1,0 +1,10 @@
+console.log('moveForward');
+console.log('fill');
+console.log('moveForward');
+console.log('moveForward');
+console.log('moveForward');
+console.log('fill');
+console.log('moveForward');
+console.log('dig');
+console.log('moveForward');
+console.log('dig');

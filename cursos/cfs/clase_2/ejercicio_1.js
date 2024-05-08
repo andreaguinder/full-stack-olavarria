@@ -1,0 +1,13 @@
+var saludo = 'Hola, Bienvenidos ';
+var saludo2 = 'a la clase del viernes.';
+var saludoCompleto = saludo + saludo2;
+console.log(saludoCompleto);
+var texto3 = "Una frase con \n Una nueva línea dentro";
+console.log(texto3);
+var texto4 = "Una frase con \t Un tabulador dentro";
+console.log(texto4);
+console.log(typeof texto4);
+var numeroUno = 50;
+var numeroDos = 40;
+var numeroResultado = numeroUno + numeroDos;
+console.log(numeroResultado);
