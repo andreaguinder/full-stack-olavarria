@@ -8,15 +8,19 @@ Re-utilice el método esMultiplo implementado para el ejercicio anterior
 
 import * as rls from 'readline-sync';
 
-function cantidadDeDivisores(numero: number, numero2: number) : number{
-    let resultado: number = numero / numero2;
-    if(primerNumero / segundoNumero){
-        return resultado;
-    }
+function esMultiplo(numero: number, divisor: number): boolean {
+    return numero % divisor === 0;
 }
 
-let primerNumero: number = rls.questionInt("Ingrese un número: ");
-let segundoNumero: number = rls.questionInt("Ingrese un segundo número: ");
-console.log(primerNumero);
+function cantidadDeDivisores(numero: number): number {
+    let cantidad = 0;
+    for (let i = 1; i <= numero; i++) {
+        if (esMultiplo(numero, i)) {
+            cantidad++;
+        }
+    }
+    return cantidad;
+}
 
-console.log(cantidadDeDivisores(primerNumero, segundoNumero));
+let numero: number = rls.questionInt("Ingrese un número: ");
+console.log('El número de divisores de ' + numero + ' es: ' + cantidadDeDivisores(numero));
