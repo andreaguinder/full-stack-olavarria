@@ -21,4 +21,4 @@ while(valorUsuario !== 0){
 // console.log(cantidadPositivos);
 // console.log(cantidadTotal);
 
-console.log('La cantidad de valores introducidos fue ' + cantidadTotal + ', de ellos ' + cantidadPositivos + ' fueron positivos, es decir, el porcentaje de positivos es ' + (cantidadPositivos/cantidadTotal * 100)) + '%';
+console.log('La cantidad de valores introducidos fue ' + cantidadTotal + ', de ellos ' + cantidadPositivos + ' fueron positivos, es decir, el porcentaje de positivos es ' + (cantidadPositivos/cantidadTotal * 100) + ' %');

@@ -18,4 +18,4 @@ for (let i = 0; i < numDados; i++) {
     probabilidad *= (1 / 6); // Multiplicamos la probabilidad por 1/6 en cada iteración
 }
 
-console.log(`La probabilidad de sacar todos los dados con valor 6 al tirar ${numDados} dados es aproximadamente ${probabilidad.toFixed(10)}`);
+console.log('La probabilidad de sacar todos los dados con valor 6 al tirar ' + numDados + ' dados es aproximadamente ' + probabilidad);
