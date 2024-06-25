@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+}
+
+.primer-bloque,
+.segundo-bloque,
+.segundo-bloque-dos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primer-bloque {
+    width: 99%;
+    margin: auto;
+}
+
+.rectangulo-verde {
+    width: 15%;
+    background-color: rgb(145, 188, 44);
+    height: 250px;
+    margin: 10px;
+}
+
+.rectangulo-gris {
+    width: 85%;
+    background-color: rgb(110, 108, 108);
+    height: 250px;
+    margin: 10px;
+}
+
+.rectangulo-amarillo {
+    width: 98%;
+    margin: 10px auto;
+    height: 100px;
+    background-color: rgb(250, 232, 209);
+    border: 4px solid rgb(0, 0, 0);
+}
+
+.rectangulo-violeta {
+    width: 25%;
+    height: 930px;
+    background-color: rgb(163, 78, 242);
+    margin: 0px 20px;
+}
+
+.segundo-bloque-dos {
+    width: 100%;
+    display: flex;
+    margin-top: -10px;
+}
+
+.bloque-interno {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.segundo-bloque-tres {
+    display: flex;
+    width: 100%;
+}
+
+.rectangulo-cyan {
+    width: 50%;
+    margin: 20px 10px;
+    height: 400px;
+    background-color: rgb(0, 179, 255);
+}
+
+.rectangulo-magenta {
+    width: 50%;
+    margin: 20px 20px;
+    height: 400px;
+    background-color: rgb(255, 0, 179);
+}
+
+.rectangulo-naranja {
+    width: 98%;
+    margin: 10px 10px;
+    height: 500px;
+    background-color: rgb(246, 152, 52);
+}
+
+.rectangulo-celeste {
+    width: 98%;
+    margin: 10px auto;
+    height: 250px;
+    background-color: rgb(84, 203, 243);
+    border: 4px solid rgb(0, 0, 0);
+}
