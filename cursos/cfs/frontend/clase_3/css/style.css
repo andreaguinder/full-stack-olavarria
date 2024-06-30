@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html{
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h2, ul{
+    color: rgb(141, 33, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+h2 {
+    color: rgb(116, 24, 202);
+}
+
+div.lorem {
+    margin: 0px 50px;
+}
+p.especifico{
+    color: rgb(175, 186, 18);
+    text-align: left;
+    margin: 50px 100px 10px;
+    font-size: 40px;
+}
+ul {
+    flex-direction: column;
+    font-size: 30px;
+    align-items: flex-start;
+    margin: 100px;
+}
+ul #unico {
+    color: rgb(7, 154, 103);
+}
+
+ul .cosas {
+    color: rgb(29, 164, 181);
+}
+
+ul .actividades {
+    color: rgb(0, 157, 255);
+    background-color: rgb(219, 129, 12);
+    width: fit-content;
+}
+
+ol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.especifico2>a {
+    color: rgb(104, 229, 104);
+}
+
+ol li a {
+    color: rgb(255, 255, 255);
+}
+
+ol .li-especial{
+    color: rgb(255, 255, 255);
+    margin: 20px auto 200px;
+    font-size: 30px;
+    font-weight: 700;
+    border: 5px solid rgb(10, 80, 172);
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(0, 157, 255);
+}
+
+ol .li-especial:hover{
+    color: rgb(0, 119, 255);
+    text-decoration: underline;
+    background-color: rgb(255, 106, 0);;
+}
+
+ol li.li-especial a:active {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    border: 5px solid rgb(10, 80, 172);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+div.video {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 60px;
+    margin: -100px auto 50px;
+    width: fit-content;
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+    background-color: rgb(252, 6, 6);
+}
+
+div.video:hover{
+    color: rgb(255, 253, 250);
+    background-color: rgb(235, 17, 170);
+    padding: 20px;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+div.video:active{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(64, 211, 162);
+}
+
+
+a#visited {
+    background-color: rgb(255, 47, 124); 
+    border: 1px solid rgb(254, 254, 254);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 60px;
+    margin: 100px auto 50px;
+    width: fit-content;
+  }
+  
+
+  a#visited:visited {
+    background-color: rgb(251, 251, 26);
+    border-color: rgb(148, 2, 75);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 60px;
+    margin: 100px auto 50px;
+    width: fit-content;
+    text-decoration: none;
+  }
