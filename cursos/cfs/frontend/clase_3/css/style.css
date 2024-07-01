@@ -122,7 +122,7 @@ div.video:active{
 }
 
 
-a#visited {
+.visited {
     background-color: rgb(255, 47, 124); 
     border: 1px solid rgb(254, 254, 254);
     color: rgb(255, 255, 255);
@@ -136,7 +136,7 @@ a#visited {
   }
   
 
-  a#visited:visited {
+  .visited:visited {
     background-color: rgb(251, 251, 26);
     border-color: rgb(148, 2, 75);
     color: rgb(0, 0, 0);
@@ -149,3 +149,40 @@ a#visited {
     width: fit-content;
     text-decoration: none;
   }
+
+  .cambio-color {
+      background-color: rgb(89, 42, 165);
+      color: rgb(255, 255, 255);
+      padding: 20px;
+      border-radius: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 100px auto 50px;
+      width: fit-content;
+  }
+
+  
+  .cambio-color:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 50px;
+    width: fit-content;
+}
+
+.cambio-color:visited {
+    background-color: rgb(244, 12, 97);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 50px;
+    width: fit-content;
+}
